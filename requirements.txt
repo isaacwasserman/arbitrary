@@ -1,1 +1,1 @@
-# ComfyUI-EasyNodes
+git+https://github.com/isaacwasserman/ComfyUI-EasyNodes

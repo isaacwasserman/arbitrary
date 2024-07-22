@@ -1,9 +1,8 @@
 import os
 from io import StringIO
 from contextlib import redirect_stdout
-from .easy_nodes import NumberInput, ComfyNode, MaskTensor, StringInput, ImageTensor
-from . import easy_nodes
-import torch
+from easy_nodes import NumberInput, ComfyNode, MaskTensor, StringInput, ImageTensor
+import easy_nodes
 from . import dependencies
 
 code_placeholder = """# Arguments are accessible through the using the argument names as keys.

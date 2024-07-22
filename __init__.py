@@ -7,7 +7,7 @@ with open("requirements.txt", "r") as f:
 if not all([dependencies.package_installed(requirement) for requirement in requirements]):
     os.system("pip install -r requirements.txt")
 
-from . import easy_nodes
+import easy_nodes
 
 easy_nodes.initialize_easy_nodes(default_category="Arbitrary", auto_register=False)
 

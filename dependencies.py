@@ -9,6 +9,8 @@ def package_installed(requirement):
         if len(split_requirement) == 1:
             required_version = ""
             operator = ""
+            if package_name[:4] == "git+":
+                package_name = package_name.split("/")[-1].split(".")[0]
         else:
             operator = split_requirement[1]
             required_version = split_requirement[2]

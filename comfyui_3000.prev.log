@@ -1,0 +1,34 @@
+## ComfyUI-Manager: installing dependencies done.
+[2024-07-22 15:59] ** ComfyUI startup time: 2024-07-22 15:59:59.925536
+[2024-07-22 15:59] ** Platform: Darwin
+[2024-07-22 15:59] ** Python version: 3.10.13 (main, Aug 24 2023, 22:36:46) [Clang 14.0.3 (clang-1403.0.22.14.1)]
+[2024-07-22 15:59] ** Python executable: /Users/isaac/Desktop/Isaacs_ComfyUI_Distro/.venv/bin/python
+[2024-07-22 15:59] ** ComfyUI Path: /Users/isaac/Desktop/Isaacs_ComfyUI_Distro
+[2024-07-22 15:59] ** Log path: /Users/isaac/Desktop/Isaacs_ComfyUI_Distro/custom_nodes/arbitrary/comfyui.log
+[2024-07-22 15:59] 
+Prestartup times for custom nodes:
+[2024-07-22 15:59]    0.0 seconds: /Users/isaac/Desktop/Isaacs_ComfyUI_Distro/custom_nodes/rgthree-comfy
+[2024-07-22 15:59]    0.4 seconds: /Users/isaac/Desktop/Isaacs_ComfyUI_Distro/custom_nodes/ComfyUI-Manager
+[2024-07-22 15:59] 
+[2024-07-22 16:00] ### Loading: ComfyUI-Manager (V2.46.3)
+[2024-07-22 16:00] ### ComfyUI Revision: 2291 on 'main' [9a317064] | Released on '2024-07-19'
+[2024-07-22 16:00] 
+[2024-07-22 16:00] [92m[rgthree] Loaded 40 magnificent nodes.[0m
+[2024-07-22 16:00] [92m[rgthree] Will use rgthree's optimized recursive execution.[0m
+[2024-07-22 16:00] 
+Traceback (most recent call last):
+  File "/Users/isaac/Desktop/Isaacs_ComfyUI_Distro/nodes.py", line 1864, in load_custom_node
+    module_spec.loader.exec_module(module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/isaac/Desktop/Isaacs_ComfyUI_Distro/custom_nodes/arbitrary/__init__.py", line 10, in <module>
+    from . import easy_nodes
+ImportError: cannot import name 'easy_nodes' from 'arbitrary' (/Users/isaac/Desktop/Isaacs_ComfyUI_Distro/custom_nodes/arbitrary/__init__.py)
+
+[2024-07-22 16:00] Cannot import /Users/isaac/Desktop/Isaacs_ComfyUI_Distro/custom_nodes/arbitrary module for custom nodes: cannot import name 'easy_nodes' from 'arbitrary' (/Users/isaac/Desktop/Isaacs_ComfyUI_Distro/custom_nodes/arbitrary/__init__.py)
+[2024-07-22 16:00] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/model-list.json
+[2024-07-22 16:00] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json
+[2024-07-22 16:00] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json
+[2024-07-22 16:00] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/alter-list.json
+[2024-07-22 16:00] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/github-stats.json
+[2024-07-22 16:00] FETCH DATA from: /Users/isaac/Desktop/Isaacs_ComfyUI_Distro/custom_nodes/ComfyUI-Manager/extension-node-map.json [DONE]
