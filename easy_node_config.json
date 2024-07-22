@@ -1,0 +1,11 @@
+{
+  "easy_nodes": {
+    "EditorPathPrefix": "",
+    "ReloadOnEdit": false,
+    "RetainPreviews": false,
+    "SourcePathPrefix": "",
+    "llm_debugging": "Off",
+    "llm_model": "gpt-4o",
+    "max_tries": 3
+  }
+}
